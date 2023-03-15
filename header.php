@@ -13,7 +13,14 @@
   <meta name="viewport" content="width=$, initial-scale=1.0">
   <title>Document</title>
   
-  <?php wp_head(); ?>
+  <?php wp_head(); 
+    wp_nav_menu(
+      array(
+        'theme_location' => 'my-custom-menu',
+        'container_class' => 'custom-menu-class'
+      )
+    );
+  ?>
   </head>
   
   <body <?php body_class(); ?>>

@@ -1,0 +1,1 @@
+// comments: This is the main javascript file for the application. It contains the main function and the event handlers for the application.
